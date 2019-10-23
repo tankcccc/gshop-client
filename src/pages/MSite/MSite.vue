@@ -315,7 +315,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  // @import "../../common/stylus/mixins.styl"
+  @import "../../common/stylus/mixins.styl"
   .msite  //首页
 	width 100%
 	.msite_header
