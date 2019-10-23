@@ -2,26 +2,26 @@
 	<div class="footer_guide">
     <span class="guide_item" :class="{on: '/msite'===$route.path}" @click="goTo('/msite')"><!--当前的路径等于请求路径-->
       <span class="item_icon">
-        <i class="iconfont icon-sousuo"></i>
+        <i class="iconfont icon-waimai-"></i>
       </span>
       <span>外卖</span>
     </span>
     <a href="javascript:;" class="guide_item" :class="{on: '/search'===$route.path}" @click="goTo('/search')">
       <span class="item_icon">
-        <i class="icon-weibiaoti-"></i>
+        <i class="iconfont icon-sousuo"></i>
       </span>
       <span>搜索</span>
     </a>
 	<!--前面路径class代表你输入路径，跳转到哪里，前面是类名后边是布尔值，，，，，，，，，，当前的路径如果等于请求的路径-->
     <a href="javascript:;" class="guide_item" :class="{on: '/order'===$route.path}" @click="goTo('/order')">
       <span class="item_icon">
-        <i class="iconfont icon-dingdan"></i>
+        <i class="iconfont icon-weibiaoti-"></i>
       </span>
       <span>订单</span>
     </a>
     <a href="javascript:;" class="guide_item" :class="{on: '/profile'===$route.path}" @click="goTo('/profile')">
       <span class="item_icon">
-        <i class="iconfont icon-geren"></i>
+        <i class="iconfont icon-wode"></i>
       </span>
       <span>我的</span>
     </a>
