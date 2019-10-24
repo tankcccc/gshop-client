@@ -132,7 +132,7 @@
 	              <li class="shop_li border-1px">
 	                <a>
 	                  <div class="shop_left">
-	                    <img class="shop_img" src="./images/shop/1.jpg">
+						<img class="shop_img" src="images/shop/1.jpg">
 	                  </div>
 	                  <div class="shop_right">
 	                    <section class="shop_detail_header">
