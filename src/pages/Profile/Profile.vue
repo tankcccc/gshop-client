@@ -1,5 +1,5 @@
 <template>
-	<section class="profile">
+	<section class="profile ">
 	        <header class="header">
 	          <a class="header_title">
 	            <span class="header_title_text">我的</span>
@@ -128,7 +128,8 @@
 	                  font-weight: 700
 	                  font-size 18px
 	                  color #fff
-	                  &.user-info-top
+					  // &代表父级引用
+	                  &.user-info-top  
 	                    padding-bottom 8px
 	                  .user-icon
 	                    display inline-block
@@ -191,9 +192,10 @@
 	                  span
 	                    color #6ac20b
 	          .profile_my_order
-	            top-border-1px(#e4e4e4)
+	            top-border-1px(#e4e4e4)    
 	            margin-top 10px
 	            background #fff
+				// 父元素加display flex
 	            .my_order
 	              display flex
 	              align-items center
