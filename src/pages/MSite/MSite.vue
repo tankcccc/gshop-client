@@ -312,6 +312,20 @@
 </template>
 
 <script>
+	import Swiper from 'swiper'
+	import 'swiper/css/swiper.min.css'
+	export default {
+		// mounted:html加载完成后执行。执行顺序：子组件-父组件
+		mounted () {
+			new Swiper('.swiper-container',{
+				  loop: true, // 循环模式选项
+				  // 如果需要分页器
+			      pagination: {
+			        el: '.swiper-pagination',
+			      },
+			})
+		},
+	}
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">

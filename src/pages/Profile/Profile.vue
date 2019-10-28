@@ -6,8 +6,8 @@
 	          </a>
 	        </header>
 	        <section class="profile-number">
-	          <a href="javascript:" class="profile-link">
-	            <div class="profile_image">
+	          <router-link to="/login" class="profile-link">
+	          	<div class="profile_image">
 	              <i class="iconfont icon-touxiang-shi"></i>
 	            </div>
 	            <div class="user-info">
@@ -22,6 +22,9 @@
 	            <span class="arrow">
 	              <i class="iconfont icon-jiantou1"></i>
 	            </span>
+	          </router-link>	
+	          <!--<a href="javascript:" class="profile-link">-->
+	            
 	          </a>
 	        </section>
 	        <section class="profile_info_data border-1px">
@@ -102,6 +105,8 @@
 	@import "../../common/stylus/mixins.styl"
 	.profile //我的
 	          width 100%
+	          /*切换的时候滑动不变*/
+	          overflow hidden  
 	          .profile-number
 	            margin-top 45.5px
 	            .profile-link
