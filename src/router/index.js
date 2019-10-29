@@ -17,19 +17,23 @@ export default new VueRouter({
 	routes:[
 		{
 			path:'/msite',
-			component: MSite
+			component: MSite,
+			meta: { showFooter: true } //判断footer是否隐藏
 		},
 		{
 			path:'/search',
-			component:Search
+			component:Search,
+			meta: { showFooter: true }
 		},
 		{
 			path:'/order',
-			component:Order
+			component:Order,
+			meta: { showFooter: true }
 		},
 		{
 			path:'/profile',
-			component:Profile
+			component:Profile,
+			meta: { showFooter: true }
 		},
 		{
 			path:'/',
